@@ -10,7 +10,7 @@ const Price = ({ icon, price, handleChange, plan }) => {
   return (
     <PriceStyle>
       <PriceIconStyle>
-        <img src={icon} />
+        <img src={icon} alt={plan} />
       </PriceIconStyle>
       <div>
         <p>{plan}</p>
